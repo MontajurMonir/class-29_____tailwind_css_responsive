@@ -44,6 +44,7 @@
                 <li><a>ABOUT US</a></li>
                 <li><a>SERVICES</a></li>
                 <li><a>WORKS</a></li>
+                <li><a>CONTACT</a></li>
               </ul>
             </div>
             <a href="#" class="text-xl">
@@ -52,10 +53,11 @@
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li><a class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out">HOME</a></li>
-              <li><a class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out">ABOUT US</a></li>
-              <li><a class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out">SERVICES</a></li>
-              <li><a class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out">WORKS</a></li>
+              <li><a href="#" class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out">HOME</a></li>
+              <li><a href="#about_part" class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out">ABOUT US</a></li>
+              <li><a href="#service_part" class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out">SERVICES</a></li>
+              <li><a href="#portfolio" class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out">WORKS</a></li>
+              <li><a href="#contact" class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out">CONTACT</a></li>
             </ul>
           </div>
           <div class="navbar-end">
@@ -129,7 +131,7 @@
     </section> -->
    
     <!-- Banner_Part Start -->
-    <section class="bg-sectionColor">
+    <section  class="bg-sectionColor">
       <div class="lg:max-w-mContainer m-auto lg:flex text-center max-w-mobContainer">
         <div class="lg:w-2/5 lg:pt-[120px] pt-[60px]">
           <h4
@@ -199,7 +201,7 @@
     <!-- Experience_Part End -->
 
     <!-- Service_Part Start -->
-    <section>
+    <section id="service_part">
       <div class="lg:pt-[140px] pt-[100px] lg:max-w-mContainer max-w-mobContainer m-auto">
         <div class="heading text-center">
           <h5
@@ -258,8 +260,8 @@
     </section>
     <!-- Service_Part End -->
 
-    <!-- Contact_Part Start -->
-    <section class="bg-sectionColor">
+    <!-- About_Part Start -->
+    <section id="about_part" class="bg-sectionColor">
       <div class="lg:mt-32 mt-10 lg:pt-24 pt-16 pb-28 p lg:max-w-mContainer max-w-mobContainer m-auto text-center lg:text-left">
         <h4 class="text-[16px] font-pop text-mcolor font-medium">
           GRAPHIC DESIGNER
@@ -280,7 +282,7 @@
         >
       </div>
     </section>
-    <!-- Contact_Part End -->
+    <!-- About_Part End -->
 
     <!-- Logo_Part Start -->
     <section>
@@ -302,7 +304,7 @@
     <!-- Logo_Part End -->
 
     <!-- Portfolio_Part Start -->
-    <section>
+    <section id="portfolio">
       <div class="lg:max-w-mContainer max-w-mobContainer m-auto lg:mt-40 mt-32">
         <div class="heading lg:flex lg:justify-between">
           <div class="left lg:text-left text-center">
@@ -493,7 +495,7 @@
     <!-- Testimoni_Part End -->
 
     <!-- Contact_Part Start -->
-    <section>
+    <section id="contact">
       <div
         class="lg:max-w-mContainer max-w-mobContainer m-auto lg:mt-16 lg:py-28 py-16 bg-[url(../images/contact_bg_2.png)] bg-no-repeat bg-center bg-cover text-center rounded-3xl"
       >
@@ -597,7 +599,16 @@
     </footer>
     <!-- Service_Part End -->
 
-    <!-- Service_Part Start -->
-    <!-- Service_Part End -->
+    <!-- Back to top Start -->
+     <section>
+      <di  class="back-to-top fixed right-[2%] bottom-[5%]">
+        <a href="#"><i class="fa-brands fa-space-awesome text-[50px] text-red-400"></i></a>
+
+      </di>
+     </section>
+    <!-- Back to top End -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
