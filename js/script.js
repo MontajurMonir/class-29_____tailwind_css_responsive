@@ -14,3 +14,10 @@ $('.back-to-top').on('click', function(event) {
         scrollTop: 0,
     }, 1000);
 });
+
+
+// Couter Part 
+$('.counter').counterUp({
+    delay: 10,
+    time: 500
+});
